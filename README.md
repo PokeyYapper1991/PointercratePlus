@@ -1,24 +1,24 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="PointercrateDarkmode" />
+  <img src="./.github/app.gif" alt="PointercratePlus" />
 
   &#xa0;
 
-  <!-- <a href="https://pointercratedarkmode.netlify.app">Demo</a> -->
+  <!-- <a href="https://pointercratePlus.netlify.app">Demo</a> -->
 </div>
 
 <h1 align="center">Pointercrate+</h1>
 
 <p align="center">
 
-  <img alt="issues" src="https://img.shields.io/github/issues/PokeyYapper1991/pointercratedarkmode?color=FEB6B6">
+  <img alt="issues" src="https://img.shields.io/github/issues/PokeyYapper1991/pointercratePlus?color=FEB6B6">
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/PokeyYapper1991/pointercratedarkmode?color=B6FEB9">
+  <img alt="Github stars" src="https://img.shields.io/github/stars/PokeyYapper1991/pointercratePlus?color=B6FEB9">
 </p>
 
 <!-- Status -->
 
 <h4 align="center"> 
-	🚧  PointercrateDarkmode 🚀 Under construction...  🚧
+	🚧  PointercratePlus 🚀 Under construction...  🚧
 </h4> 
 
 <hr>
@@ -56,7 +56,9 @@ The following tools were used in this project:
 
 I have made this project into a chrome browser extension!
 
-You can [download the extension](Pointercrate Dark Theme/*) right here!
+You can [download the extension](Pointercrate +.zip) right here!
+Add themes from the [themeRepo](/themeRepo)
+Add plugins from the [pluginRepo](/pluginRepo)
 
 ## :memo: License ##
 
