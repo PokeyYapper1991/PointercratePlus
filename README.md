@@ -57,7 +57,9 @@ The following tools were used in this project:
 I have made this project into a chrome browser extension!
 
 You can [download the extension](Pointercrate +.zip) right here!
+
 Add themes from the [themeRepo](/themeRepo)
+
 Add plugins from the [pluginRepo](/pluginRepo)
 
 ## :memo: License ##
