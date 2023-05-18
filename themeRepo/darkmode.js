@@ -19,116 +19,124 @@ const acaciaHide = '<li><a target="_blank" href="https://www.youtube.com/@acacia
         const acaciaHelpy = document.querySelector("#editors > ul:nth-child(6) > li:nth-child(5)");
         let html = acaciaHide;
         acaciaHelpy.insertAdjacentHTML("afterend", html);
-}
+    }
 
     var logo = document.querySelector("body > header > nav > div.nav-icon.nav-nohide > a");
     logo.innerHTML = logoRep;
 
     // Define the dark mode CSS rules
-    const darkModeCSS = 
-    `
+    const darkModeCSS = `
+    html {
+        visibility: visable !important;
+    }
+
+    div.tooltiptext.fade {
+        background-color: #303030 !important;
+        color: #ffffff !important;
+    }
+
     .hover white {
-        background-color: black;
+        background-color: black !important;
     }
 
     body {
-        background-color: #202020;
+        background-color: #202020 !important;
     }
 
     section {
-        background-color: #080808;
+        background-color: #080808 !important;
     }
 
     header {
-        background-color: black;
+        background-color: black !important;
     }
 
     #editors {
-        background-color: #303030;
-        color: aliceblue;
-        border-radius: 25px;
+        background-color: #303030 !important;
+        color: aliceblue !important;
+        border-radius: 25px !important;
         border-style: none !important;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
     }
 
     #rules {
-        background-color: #303030;
-        color: aliceblue;
-        border-radius: 25px;
+        background-color: #303030 !important;
+        color: aliceblue !important;
+        border-radius: 25px !important;
         border-style: none !important;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
     }
 
     #submit {
-        background-color: #303030;
-        color: aliceblue;
-        border-radius: 25px;
+        background-color: #303030 !important;
+        color: aliceblue !important;
+        border-radius: 25px !important;
         border-style: none !important;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
     }
 
     #stats {
-        background-color: #303030;
-        color: aliceblue;
-        border-radius: 25px;
+        background-color: #303030 !important;
+        color: aliceblue !important;
+        border-radius: 25px !important;
         border-style: none !important;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
     }
 
     #discord {
-        background-color: #303030;
-        color: aliceblue;
-        border-radius: 25px;
+        background-color: #303030 !important;
+        color: aliceblue !important;
+        border-radius: 25px !important;
         border-style: none !important;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
     }
 
     a {
-        color: aliceblue;
+        color: aliceblue !important;
     }
 
     .left {
-        color: #000;
+        color: #000 !important;
     }
 
     section[class="panel fade"] {
-        background-color: #282828;
-        color: azure;
+        background-color: #282828 !important;
+        color: azure !important;
         border-style: none !important;
-        border-radius: 15px;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
-        transition: opacity 0.8s ease;
+        border-radius: 15px !important;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
+        transition: opacity 0.8s ease !important;
     }
 
     section[class="panel fade"]:hover {
-        background-color: #363636;
-        color: azure;
+        background-color: #363636 !important;
+        color: azure !important;
         border-style: none !important;
-        border-radius: 15px;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
-        transition: opacity 0.8s ease;
+        border-radius: 15px !important;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
+        transition: opacity 0.8s ease !important;
     }
 
     nav[class="center collapse underlined see-through"],
     [class="nav-item hover white"] {
-        background-color: #222;
-        color: azure;
+        background-color: #222 !important;
+        color: azure !important;
         border-style: none !important;
     }
 
     .overlay {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.8);
-        z-index: 1083458237
+        display: none !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        background-color: rgba(0, 0, 0, 0.8) !important;
+        z-index: 1083458237 !important;
     }
 
     .hover, .hover:hover:not(.disabled):not([disabled]) {
-        transition: opacity .8s ease
+        transition: opacity .8s ease !important;
     }
 
     #statsviewers {
@@ -138,10 +146,10 @@ const acaciaHide = '<li><a target="_blank" href="https://www.youtube.com/@acacia
     }
 
     #stats-viewer-pagination li i {
-        padding-left: 5px;
-        color: #fff;
-        font-size: 70%;
-        font-variant: small-caps
+        padding-left: 5px !important;
+        color: #fff !important;
+        font-size: 70% !important;
+        font-variant: small-caps !important;
     }
 
     #lists {
@@ -151,8 +159,8 @@ const acaciaHide = '<li><a target="_blank" href="https://www.youtube.com/@acacia
     }
 
     a[class="blue hover button"], [class="blue hover button js-scroll"] {
-        background-color: rgb(4, 90, 55);
-        color: #ffffff;
+        background-color: rgb(4, 90, 55) !important;
+        color: #ffffff !important;
     }
 
     .white {
@@ -166,168 +174,172 @@ const acaciaHide = '<li><a target="_blank" href="https://www.youtube.com/@acacia
     }
 
     body>div:first-child {
-        background-image:url("https://raw.githubusercontent.com/PokeyYapper1991/PointercratePlus/main/assets/squares3.png");
+        background-image:url("https://raw.githubusercontent.com/PokeyYapper1991/PointercratePlus/main/assets/squares3.png") !important;
     }
 
     section[class="panel fade js-scroll-anim"] {
         background-color: #282828 !important;
-        color: azure;
+        color: azure !important;
         border-style: none !important;
-        border-radius: 15px;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
-
+        border-radius: 15px !important;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
     }
 
     div[class="panel fade js-scroll-anim js-collapse"], [class="panel fade js-scroll-anim js-collapse active"] {
         background-color: #282828 !important;
         background: #282828 !important;
-        color: azure;
+        color: azure !important;
         border-style: none !important;
-        border-radius: 15px;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
-
+        border-radius: 15px !important;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
     }
 
     .info-yellow, .info-green {
-        font-family: montserrat, sans-serif;
-        text-align: center;
-        background: #353535;
+        font-family: montserrat, sans-serif !important;
+        text-align: center !important;
+        background: #353535 !important;
         border-style: none !important;
-        border-radius: 15px;
-        padding: 5px 15px;
-        color: #ffffff;
-        margin: 25px 0;
-        flex-grow: 1;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 15px !important;
+        padding: 5px 15px !important;
+        color: #ffffff !important;
+        margin: 25px 0 !important;
+        flex-grow: 1 !important;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
     }
 
     .panel {
         background: #282828 !important;
         color: azure !important;
         border-style: none !important;
-        border-radius: 15px;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
-
+        border-radius: 15px !important;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
     }
 
     .arrow {
         color: #ffffff !important;
-        opacity
     }
 
     .arrow:before, .arrow:after {
-        position: absolute;
-        content: "";
-        display: inline-block;
-        width: 12px;
-        height: 3px;
-        background-color: #fff;
-        transition: .4s ease;
+        position: absolute !important;
+        content: "" !important;
+        display: inline-block !important;
+        width: 12px !important;
+        height: 3px !important;
+        background-color: #fff !important;
+        transition: .4s ease !important;
     }
 
     .blue {
-        background-color: rgb(4, 90, 55);
-        color: #ffffff;
+        background-color: rgb(4, 90, 55) !important;
+        color: #ffffff !important;
     }
 
     .blue.hover:not(.disabled):not([disabled]):hover, .blue.active {
-        background-color: rgb(10, 113, 71);
-        color: #ffffff;
+        background-color: rgb(10, 113, 71) !important;
+        color: #ffffff !important;
     }
 
     .blue.hover:not(.disabled):not([disabled]):active {
-        background-color: rgb(10, 113, 71);
-        color: #ffffff;
+        background-color: rgb(10, 113, 71) !important;
+        color: #ffffff !important;
     }
 
     code {
-    background: rgba(0, 0, 0, 0.2);
-    border: none;
+    background: rgba(0, 0, 0, 0.2) !important;
+    border: none !important;
     }
 
     th {
-        background: #222222;
+        background: #222222 !important;
     }
 
     tr {
-        background: #252525;
+        background: #252525 !important;
     }
 
     tr:nth-child(even) {
-        background: #232323;
+        background: #232323 !important;
     }
 
     tr:nth-child(odd) {
-        background: #292929;
+        background: #292929 !important;
     }
 
     a.link {
-        color: rgb(180, 85, 0);
+        color: rgb(180, 85, 0) !important;
     }
 
     a.link:hover {
-        color: rgb(255, 120, 0);
+        color: rgb(255, 120, 0) !important;
     }
 
     #history-table tr {
-        background: rgb(32, 32, 32);
-        color: azure;
+        background: rgb(32, 32, 32) !important;
+        color: azure !important;
     }
 
     #history-table tr.moved-up {
-        background: #074d07;
-        color: #dfd;
+        background: #074d07 !important;
+        color: #dfd !important;
     }
 
     #history-table tr.moved-down {
-        background: #4d0707;
-        color: #fdd;
+        background: #4d0707 !important;
+        color: #fdd !important;
     }
 
     /* Front Page */
 
     .information-banner>* {
         background: #282828 !important;
-        padding: 50px 20px;
-        max-width: 1072px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        box-shadow: 0 0 7px 5px #282828;
-        color: azure;
+        padding: 50px 20px !important;
+        max-width: 1072px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        box-shadow: 0 0 7px 5px #282828 !important;
+        color: azure !important;
     }
 
     .information-banner {
-        background-color: rgba(0, 0, 0, 0);
-        display: flex;
-        justify-content: center;
-        font-size: 110%
+        background-color: rgba(0, 0, 0, 0) !important;
+        display: flex !important;
+        justify-content: center !important;
+        font-size: 110% !important;
     }
 
     .information-stripe {
-        background: rgb(0, 73, 43);
-        background-color: rgb(0, 73, 43);
-        text-align: center;
-        color: #ffffff;
-        font-weight: 700;
-        position: relative
+        background: rgb(0, 73, 43) !important;
+        background-color: rgb(0, 73, 43) !important;
+        text-align: center !important;
+        color: #ffffff !important;
+        font-weight: 700 !important;
+        position: relative !important;
     }
 
-    /* body > div.flex.m-center.container > main > section:nth-child(39) > div > div.thumb.ratio-16-9.js-delay-css:hover { 
-        background-image: url("https://raw.githubusercontent.com/PokeyYapper1991/PointercratePlus/main/assets/TKC.png") !important;
-        } */
-
     .search.seperated input {
-    color: #ffffff;
+    color: #ffffff !important;
     }
     `;
 
     // Create a new style element with the dark mode CSS rules
     const styleElement = document.createElement('style');
-    styleElement.innerHTML = darkModeCSS;
+    styleElement.textContent = darkModeCSS;
 
-    // Add the style element to the document head
+    // Create a URL for the style element
+    const styleUrl = URL.createObjectURL(new Blob([styleElement.textContent], { type: 'text/css' }));
+
+    // Create a link element with the style URL
+    const linkElement = document.createElement('link');
+    linkElement.rel = 'stylesheet';
+    linkElement.href = styleUrl;
+
+    // Find the first stylesheet in the document head
+    const firstStylesheet = document.head.querySelector('link[rel="stylesheet"], style');
+    const firstMeta = document.head.querySelector('meta');
+
+    // Insert the link element before the first stylesheet
+    document.head.insertBefore(linkElement, document.head.querySelector('meta'));
+    document.head.insertBefore(linkElement, firstStylesheet);
     document.head.appendChild(styleElement);
-}
-
-)();
+})();
